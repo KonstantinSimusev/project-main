@@ -1,0 +1,10 @@
+@import url('./__title/qustion__title.css');
+@import url('./__result/question__result.css');
+@import url('./__text/question__text.css');
+@import url('./__item/question__item.css');
+
+.question {
+  padding: 10px;
+  border: 1px solid rgb(255 255 255 / .3);
+  border-radius: 5px;
+}

@@ -1,0 +1,8 @@
+@import url('./__button/form__button.css');
+
+.form {
+  display: grid;
+  padding-inline: 10px;
+  padding-block-start: 30px;
+  padding-block-end: 10px;
+}
