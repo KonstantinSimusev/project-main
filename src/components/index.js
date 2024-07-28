@@ -1,9 +1,11 @@
 import '../pages/index.css';
 import { kodeks } from './kodeks';
+import { grups } from './grups';
 import { createQuestion } from './card';
 
 const questionsList = document.querySelector('.questions__list');
 const kodeksButton = document.querySelector('.button__kodeks');
+const grupsButton = document.querySelector('.button__grups');
 
 const getRandomQuestions = (questions) => {
   return questions.sort(() => Math.random() - 0.5);
@@ -24,3 +26,4 @@ const createQuestions = (button, questions) => {
 }
 
 createQuestions(kodeksButton, kodeks);
+createQuestions(grupsButton, grups);
