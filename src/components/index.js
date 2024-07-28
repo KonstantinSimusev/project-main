@@ -13,12 +13,3 @@ randomQuestions.forEach(question => {
   const card = createQuestion(question, questions);
   questionsList.append(card);
 });
-
-priceButton.addEventListener('click', () => {
-  priceButton.textContent = 'Платный контент...';
-});
-
-testOpenButton.addEventListener('click', () => {
-  overley.classList.add('popup_is-animated');
-});
-
