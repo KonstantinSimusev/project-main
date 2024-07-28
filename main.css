@@ -1,5 +1,5 @@
 @font-face{font-family:Roboto-Light;font-style:normal;font-weight:300;src:url(19a99746405e8730f34c.woff) format("woff")}@font-face{font-family:Oswald-Bold;font-style:normal;font-weight:800;src:url(8c294acde5159561e92d.woff2) format("woff2")}@font-face{font-family:OpenSans-Regular;font-style:normal;font-weight:400;src:url(d05f5eb593ca0ecea8ca.woff) format("woff")}
-*,:after,:before{box-sizing:border-box}blockquote,fieldset,h1,h2,h3,h4,li,ol,p,ul{margin:0;padding:0}ol,ul{list-style:none}.page{background:#000;color:#fff;display:grid;letter-spacing:1.2px;margin:20px;opacity:.9;position:relative}
+*,:after,:before{box-sizing:border-box}blockquote,fieldset,h1,h2,h3,h4,li,ol,p,ul{margin:0;padding:0}ol,ul{list-style:none}.page{background:#000;color:#fff;display:grid;letter-spacing:1.2px;margin:auto 0;min-inline-size:375px;opacity:.9;padding-inline:10px;position:relative}
 .content{position:relative;z-index:-3}
 .question__title{font-family:Oswald-Bold,sans-serif;letter-spacing:2px}
 .question__result_error{color:red;font-family:OpenSans-Regular,sans-serif;opacity:.9;text-transform:uppercase;transition:opacity .7s ease}
