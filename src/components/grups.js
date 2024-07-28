@@ -1,444 +1,444 @@
 export const grups = [
   {
-    title: '',
+    title: 'Понятие нормирования труда',
     answers: [
       {
-        title: '',
+        title: 'Определение затрат времени, требующихся для выполнения той или иной работы в различных организационно – технических условиях',
+        bool: true
+      },
+      {
+        title: 'Определение количества персонала для выполнения той или иной работы',
         bool: false
       },
       {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
+        title: 'Определение количества оборудования, которое может обслуживать работник',
         bool: false
       },
     ]
   },
   {
-    title: '',
+    title: 'Какие бывают нормы труда?',
     answers: [
       {
-        title: '',
+        title: 'Нормы выработки, времени, обслуживания, численности, управляемости',
+        bool: true
+      },
+      {
+        title: 'Нормы выработки, времени',
         bool: false
       },
       {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
+        title: 'Нормы времени, численности',
         bool: false
       },
     ]
   },
   {
-    title: '',
+    title: 'Когда могут быть пересмотрены нормы труда?',
     answers: [
       {
-        title: '',
+        title: 'По мере совершенствования или внедрения новой техники, технологии и проведения организационных, либо иных мероприятий, обеспечивающих рост производительности труда, а также в случае использования физически и морально устаревшего оборудования',
+        bool: true
+      },
+      {
+        title: 'В любой момент при желании администрации',
         bool: false
       },
       {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
+        title: 'При изменении технологии и при большом перевыполнении',
         bool: false
       },
     ]
   },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
-  {
-    title: '',
-    answers: [
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-      {
-        title: '',
-        bool: false
-      },
-    ]
-  },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
+  // {
+  //   title: '',
+  //   answers: [
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //     {
+  //       title: '',
+  //       bool: false
+  //     },
+  //   ]
+  // },
 ]

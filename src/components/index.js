@@ -6,6 +6,7 @@ import { createQuestion } from './card';
 const questionsList = document.querySelector('.questions__list');
 const kodeksButton = document.querySelector('.button__kodeks');
 const grupsButton = document.querySelector('.button__grups');
+const buttons = document.querySelector('.buttons');
 
 const getRandomQuestions = (questions) => {
   return questions.sort(() => Math.random() - 0.5);
@@ -19,9 +20,9 @@ const getQuestions = (questions) => {
 }
 
 const createQuestions = (button, questions) => {
-  button.addEventListener('click', (evt) => {
+  button.addEventListener('click', () => {
     getQuestions(questions);
-    evt.target.remove();
+    buttons.remove();
   });
 }
 
