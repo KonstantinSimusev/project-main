@@ -1,4 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ 
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+ 
+ul,
+ol {
+  list-style: none;
+}
+
 .page {
+  display: grid;
   position: relative;
   margin: 20px;
   opacity: .9;
