@@ -15,8 +15,12 @@ const createInput = (answer, answers, element) => {
   const field = input.querySelector('.input');
   const text = input.querySelector('.input__text');
 
-  field.value = answer.title;
+  field.value = answer.bool;
   text.textContent = answer.title;
+
+  if (answer.bool) {
+    field.checked = true;
+  }
 
   input.addEventListener('change', () => {
     if (total.length > 1) {
@@ -41,6 +45,7 @@ export const createQuestion = (question, questions) => {
   const inputForm = card.querySelector('.form__type_answer');
   const result = card.querySelector('.question__result');
   const button = card.querySelector('.button');
+  const clearButton = card.querySelector('.form__button_clear');
 
   const randomAnswers = question.answers.sort(() => Math.random() - 0.5);
   const joinRandomAnswers = randomAnswers.map(item => item.bool).filter(item => item === true).join();
@@ -89,6 +94,12 @@ export const createQuestion = (question, questions) => {
       result.classList.remove('question__result_right');
       result.classList.remove('result_is-visible');
     }, 3000);
+  });
+
+  clearButton.addEventListener('click', () => {
+    inputs.forEach(input => {
+      input.checked = false;
+    });
   });
 
   return card;
