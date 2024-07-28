@@ -6,7 +6,7 @@
 .question__result {
   padding-block-start: 7px;
   padding-block-end: 5px;
-  min-block-size: 32px;
+  min-block-size: 34px;
   font-size: 16px;
   transition: opacity .7s ease;
 }
