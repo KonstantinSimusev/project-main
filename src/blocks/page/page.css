@@ -24,9 +24,11 @@ ol {
 }
 
 .page {
+  min-inline-size: 375px;
   display: grid;
   position: relative;
-  margin: 20px;
+  margin: auto 0;
+  padding-inline: 10px;
   opacity: .9;
   color: white;
   background: black;
