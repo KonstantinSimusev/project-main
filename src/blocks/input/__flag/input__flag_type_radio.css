@@ -11,15 +11,13 @@ input[type='radio'] + span {
   inline-size: 20px;
   block-size: 20px;
   background-color: white;
-  opacity: .9;
 }
 
 input[type='radio']:checked + span {
   position: relative;
   bottom: -3px;
-  background-color: black;
+  background-color: green;
   border: 3px solid white;
-  opacity: .9;
 }
 
 input[type='radio']:focus-visible + span {

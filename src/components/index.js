@@ -1,15 +1,26 @@
 import '../pages/index.css';
-import { questions } from './questions';
+import { kodeks } from './kodeks';
 import { createQuestion } from './card';
 
 const questionsList = document.querySelector('.questions__list');
-const priceButton = document.querySelector('.price__button');
-const testOpenButton = document.querySelector('.button__test_open');
-const overley = document.querySelector('.overlay');
+const kodeksButton = document.querySelector('.button__kodeks');
 
-const randomQuestions = questions.sort(() => Math.random() - 0.5);
+const getRandomQuestions = (questions) => {
+  return questions.sort(() => Math.random() - 0.5);
+}
 
-randomQuestions.forEach(question => {
-  const card = createQuestion(question, questions);
-  questionsList.append(card);
-});
+const getQuestions = (questions) => {
+  getRandomQuestions(questions).forEach(question => {
+    const card = createQuestion(question, questions);
+    questionsList.append(card);
+  });
+}
+
+const createQuestions = (button, questions) => {
+  button.addEventListener('click', (evt) => {
+    getQuestions(questions);
+    evt.target.remove();
+  });
+}
+
+createQuestions(kodeksButton, kodeks);

@@ -1,4 +1,4 @@
-export const questions = [
+export const kodeks = [
 
   // ТЕМА: Кодекс этики Группы ПАО «ММК»
   {
