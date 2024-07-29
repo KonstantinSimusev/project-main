@@ -1,16 +1,19 @@
 import '../pages/index.css';
-import { kodeks } from './kodeks';
-import { grups } from './grups';
+import { kodeks } from './data/kodeks';
+import { grups } from './data/grups';
+import { technology } from './data/technology';
 import { createQuestion } from './card';
 
 const questionsList = document.querySelector('.questions__list');
+
 const kodeksButton = document.querySelector('.button__kodeks');
 const grupsButton = document.querySelector('.button__grups');
+const technologyButton = document.querySelector('.button__technology');
+
 const buttons = document.querySelector('.buttons');
 const cleaningSection = document.querySelector('.cleaning');
 const cleaningSectionButtons = cleaningSection.querySelectorAll('.form__button');
 const clearButton = document.querySelector('.button__clear_all');
-// const showButton = document.querySelector('.button__show_all');
 
 let inputs = [];
 
@@ -43,6 +46,7 @@ const createQuestions = (button, questions) => {
 
 createQuestions(kodeksButton, kodeks);
 createQuestions(grupsButton, grups);
+createQuestions(technologyButton, technology)
 
 clearButton.addEventListener('click', () => {
   inputs.forEach(input => {
