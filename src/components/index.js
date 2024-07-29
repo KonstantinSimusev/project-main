@@ -4,13 +4,13 @@ import { grups } from './grups';
 import { createQuestion } from './card';
 
 const questionsList = document.querySelector('.questions__list');
-const sectionInputs = questionsList.querySelector('.input');
 const kodeksButton = document.querySelector('.button__kodeks');
 const grupsButton = document.querySelector('.button__grups');
 const buttons = document.querySelector('.buttons');
 const cleaningSection = document.querySelector('.cleaning');
 const cleaningSectionButtons = cleaningSection.querySelectorAll('.form__button');
 const clearButton = document.querySelector('.button__clear_all');
+// const showButton = document.querySelector('.button__show_all');
 
 let inputs = [];
 
@@ -36,9 +36,8 @@ const hiddenButton = (buttons) => {
 const createQuestions = (button, questions) => {
   button.addEventListener('click', () => {
     hiddenButton(cleaningSectionButtons);
-    buttons.classList.add('visually-hidden');
     getQuestions(questions);
-    console.log(inputs);
+    buttons.classList.add('visually-hidden');
   });
 }
 
