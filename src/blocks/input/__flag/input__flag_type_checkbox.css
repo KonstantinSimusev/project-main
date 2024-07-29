@@ -4,7 +4,7 @@
   bottom: -3px;
   display: inline-block;
   transition: background-color .3s ease;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 input[type='checkbox'] + span {
@@ -17,7 +17,9 @@ input[type='checkbox']:checked + span {
   position: relative;
   bottom: -3px;
   background-color: green;
-  border: 3px solid white;
+  background-image: url(../../../images/checkmark.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 input[type='checkbox']:focus-visible + span {
