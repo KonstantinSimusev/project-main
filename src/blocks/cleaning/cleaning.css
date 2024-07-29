@@ -1,4 +1,5 @@
 .cleaning {
   display: grid;
   justify-items: center;
+  padding-block-start: 20px;
 }
