@@ -3,17 +3,17 @@
 *,:after,:before{box-sizing:border-box}blockquote,fieldset,h1,h2,h3,h4,li,ol,p,ul{margin:0;padding:0}ol,ul{list-style:none}.page{background:#000;color:#fff;display:grid;letter-spacing:1.2px;margin:auto 0;min-inline-size:375px;opacity:.9;padding-inline:10px;position:relative}
 .content__question{display:grid;justify-items:center}
 .content{position:relative;z-index:-3}
-.question__title{font-family:Oswald-Bold,sans-serif;font-size:22px;letter-spacing:2px}
+.question__title{font-family:Oswald-Bold,sans-serif;font-size:22px;letter-spacing:2px;padding-block-end:20px}
 .question__result_error{color:red;font-family:OpenSans-Regular,sans-serif;opacity:.9;text-transform:uppercase;transition:opacity .7s ease}
 .question__result_right{color:green;font-family:OpenSans-Regular,sans-serif;opacity:.9;text-transform:uppercase;transition:opacity .7s ease}
 .result_is-hidden{opacity:0;transition:opacity .7s ease}
 .result_is-visible{opacity:.9;transition:opacity .7s ease}
-.question__result{font-size:16px;min-block-size:34px;padding-block-end:5px;padding-block-start:7px;transition:opacity .7s ease}
+.question__result{font-size:16px;min-block-size:34px;padding-block-start:12px;transition:opacity .7s ease}
 .qustion__text{border-bottom:1px solid hsla(0,0%,100%,.3);font-family:OpenSans-Regular,sans-serif;font-size:18px;line-height:1.3;padding-block-end:5px}
 .question__item{background-color:#101010;border:1px solid hsla(0,0%,100%,.7);border-radius:8px;margin-block:30px;padding:10px}
 .question{border:1px solid hsla(0,0%,100%,.3);border-radius:5px;padding:10px}
 .form__button_disabled{opacity:.3}
-.form__button{background:transparent;background-color:#202020;border:1px solid #fff;border-radius:5px;color:#fff;cursor:pointer;font-family:OpenSans-Regular,sans-serif;font-size:18px;letter-spacing:2px;margin-block-start:30px;min-inline-size:320px;padding-block:10px;text-transform:uppercase;transition:opacity .5s ease}.form__button:hover{opacity:.3}
+.form__button{background:transparent;background-color:#202020;border:1px solid #fff;border-radius:5px;color:#fff;cursor:pointer;font-family:OpenSans-Regular,sans-serif;font-size:18px;letter-spacing:2px;margin-block-start:10px;min-inline-size:320px;padding-block:10px;text-transform:uppercase;transition:opacity .5s ease}.form__button:hover{opacity:.3}
 .form{display:grid;padding-block-end:10px;padding-block-start:30px;padding-inline:10px}
 .answers__list{display:grid;gap:15px}
 .input__text{font-family:Roboto-Light,sans-serif;font-size:18px;line-height:1.3}
