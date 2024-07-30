@@ -37,6 +37,17 @@ const createInput = (answer, answers, element) => {
   return input;
 };
 
+export const toggleInputs = (button) => {
+  button.addEventListener('click', () => {
+    console.log('hello');
+    if (button.textContent === 'Не показывать ответ') {
+      button.textContent = 'Показать ответ';
+    } else {
+      button.textContent === 'Не показывать ответ';
+    }
+  })
+}
+
 export const createQuestion = (question, questions) => {
   const card = questionTemplate.querySelector('.question__item').cloneNode(true);
   const questionTitle = card.querySelector('.question__title');
@@ -45,7 +56,7 @@ export const createQuestion = (question, questions) => {
   const inputForm = card.querySelector('.form__type_answer');
   const result = card.querySelector('.question__result');
   const button = card.querySelector('.button');
-  // const toggleButton = card.querySelector('.form__button_toogle');
+  // const toggleButton = card.querySelector('.form__button_toggle');
 
   const randomAnswers = question.answers.sort(() => Math.random() - 0.5);
   const joinRandomAnswers = randomAnswers.map(item => item.bool).filter(item => item === true).join();
@@ -79,6 +90,10 @@ export const createQuestion = (question, questions) => {
       result.classList.add('result_is-visible');
       result.textContent = 'Неправильный ответ';
     }
+
+    // toggleButton.addEventListener('click', () => {
+    //   console.log('hello');
+    // });
 
     inputs.forEach(input => {
       input.checked = false;

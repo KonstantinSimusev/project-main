@@ -1,4 +1,5 @@
 @import url('./_disabled/form__button_disabled.css');
+@import url('./_toggle/form__button_toggle.css');
 
 .form__button {
   min-inline-size: 320px;
@@ -6,7 +7,7 @@
   letter-spacing: 2px;
   font-size: 18px;
   color: white;
-  margin-block-start: 10px;
+  margin-block-start: 20px;
   background: transparent;
   text-transform: uppercase;
   padding-block: 10px;
