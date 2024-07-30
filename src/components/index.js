@@ -3,6 +3,7 @@ import { kodeks } from './data/kodeks';
 import { grups } from './data/grups';
 import { technology } from './data/technology';
 import { management } from './data/management';
+import { smk } from './data/smk';
 import { createQuestion } from './card';
 
 const questionsList = document.querySelector('.questions__list');
@@ -11,11 +12,13 @@ const kodeksButton = document.querySelector('.button__kodeks');
 const grupsButton = document.querySelector('.button__grups');
 const technologyButton = document.querySelector('.button__technology');
 const managementButton = document.querySelector('.button__management');
+const smkButton = document.querySelector('.button__smk');
 
 const buttons = document.querySelector('.buttons');
 const cleaningSection = document.querySelector('.cleaning');
 const cleaningSectionButtons = cleaningSection.querySelectorAll('.form__button');
 const clearButton = document.querySelector('.button__clear_all');
+
 
 
 let inputs = [];
@@ -51,6 +54,7 @@ createQuestions(kodeksButton, kodeks);
 createQuestions(grupsButton, grups);
 createQuestions(technologyButton, technology);
 createQuestions(managementButton, management);
+createQuestions(smkButton, smk);
 
 clearButton.addEventListener('click', () => {
   inputs.forEach(input => {
