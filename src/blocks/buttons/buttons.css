@@ -1,6 +1,6 @@
 .buttons {
   display: grid;
   justify-items: center;
-  padding-block-start: 40px;
+  padding-block: 40px;
   gap: 10px;
 }
