@@ -1,4 +1,5 @@
 import '../pages/index.css';
+
 import { all } from './data/all';
 import { kodeks } from './data/kodeks';
 import { grups } from './data/grups';
@@ -10,8 +11,9 @@ import { tkrf } from './data/tkrf';
 import { production } from './data/production';
 import { machine } from './data/machine';
 import { electro } from './data/electro';
-import { lpc_5 } from './data/lpc_5'
-import { lpc_11 } from './data/lpc_11'
+import { lpc_5 } from './data/lpc_5';
+import { lpc_11 } from './data/lpc_11';
+import { economic } from './data/economic';
 
 import { createQuestion } from './card';
 
@@ -28,6 +30,7 @@ const tkrfButton = document.querySelector('.button__tkrf');
 const productionButton = document.querySelector('.button__production');
 const machineButton = document.querySelector('.button__machine');
 const electroButton = document.querySelector('.button__electro');
+const economicButton = document.querySelector('.button__economic');
 const lpc5Button = document.querySelector('.button__lpc_5');
 const lpc11Button = document.querySelector('.button__lpc_11');
 
@@ -78,6 +81,7 @@ createQuestions(tkrfButton, tkrf);
 createQuestions(productionButton, production);
 createQuestions(machineButton, machine);
 createQuestions(electroButton, electro);
+createQuestions(economicButton, economic);
 createQuestions(lpc5Button, lpc_5);
 createQuestions(lpc11Button, lpc_11);
 
@@ -86,3 +90,4 @@ clearButton.addEventListener('click', () => {
     input.checked = false;
   });
 });
+
